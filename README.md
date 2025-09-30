@@ -26,12 +26,14 @@ This repository contains multiple Node.js applications demonstrating advanced pr
    ```bash
    git clone https://github.com/supriya-kd/prompts.git
    cd /prompts
+   create .env file, add the key in this file like OPENAI_API_KEY=key1 
 
 2. To run Chain of Thought Prompt example run => **node chain-of-thought.js**
 3. To run a Few Shot Prompt example run => **node few_shot.js**
-4. To run a LLM as judge example follow steps:
+4. To run LLM as judge example follow steps:
    i) cd /LLM-as-judge
    ii) run => **node main.js**
 6. To run a Self-consistent example follow steps:
    i) cd /Self-consistent 
    ii) run => **node self-consistent-prompt.js**
+7. Hard coded questions are present in each of these files. You can change those questions to experiment the output with different types of questions.
