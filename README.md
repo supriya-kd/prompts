@@ -12,51 +12,26 @@ This repository contains multiple Node.js applications demonstrating advanced pr
 - **Self-Consistent**: Implementation of self-consistent prompting for more reliable outputs
 - **Basic Prompt Templates**: Various prompt templates for different use cases
 
-## 🚀 Features
-
-### Few-Shot Learning
-- Example-based prompting with multiple demonstrations
-- Task-specific examples for better model understanding
-- Configurable number of examples
-- Various demonstration formats (text, code, reasoning)
-- Improved performance on specific tasks
-
-### Chain of Thought (CoT)
-- Step-by-step reasoning prompts
-- Complex problem decomposition
-- Intermediate reasoning steps
-- Improved accuracy on multi-step problems
-- Configurable reasoning depth
-
-### LLM-as-Judge
-- Automated response evaluation using AI judges
-- Configurable evaluation criteria
-- Multiple judge models support
-- Batch processing capabilities
-
-### Self-Consistent Prompting
-- Multiple reasoning paths generation
-- Consensus-based answer selection
-- Improved accuracy and reliability
-- Configurable sampling parameters
-
-### General Features
-- Modular architecture
-- Configurable model parameters
-- JSON-based configuration
-- Easy-to-extend prompt templates
-
 ## 🛠️ Installation
 
 ### Prerequisites
 
 - **Node.js** (version 14 or higher)
 - **npm** (Node Package Manager)
-- **OpenAI API token**
+- **OpenAI API token** ( this is a paid token, you can use a free model in the code, to work with a free token )
 
 ### Steps
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/supriya-kd/prompts.git
-   cd prompts
+   cd /prompts
+
+2. To run Chain of Thought Prompt example run => **node chain-of-thought.js**
+3. To run a Few Shot Prompt example run => **node few_shot.js**
+4. To run a LLM as judge example follow steps:
+   i. cd /LLM-as-judge
+   ii. run => **node main.js**
+6. To run a Self-consistent example follow steps:
+   i. cd /Self-consistent 
+   ii. run => **node self-consistent-prompt.js**
