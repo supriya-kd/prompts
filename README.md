@@ -30,8 +30,8 @@ This repository contains multiple Node.js applications demonstrating advanced pr
 2. To run Chain of Thought Prompt example run => **node chain-of-thought.js**
 3. To run a Few Shot Prompt example run => **node few_shot.js**
 4. To run a LLM as judge example follow steps:
-   i. cd /LLM-as-judge
-   ii. run => **node main.js**
+   i) cd /LLM-as-judge
+   ii) run => **node main.js**
 6. To run a Self-consistent example follow steps:
-   i. cd /Self-consistent 
-   ii. run => **node self-consistent-prompt.js**
+   i) cd /Self-consistent 
+   ii) run => **node self-consistent-prompt.js**
