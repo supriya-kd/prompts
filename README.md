@@ -26,7 +26,8 @@ This repository contains multiple Node.js applications demonstrating advanced pr
    ```bash
    git clone https://github.com/supriya-kd/prompts.git
    cd /prompts
-   create .env file, add the key in this file like OPENAI_API_KEY=key1 
+   create .env file, add the key in this file like OPENAI_API_KEY=key1
+   For LLM as judge you need 2 models. So include another model's key also in the .env file like GEMINI_API_KEY=key2
 
 2. To run Chain of Thought Prompt example run => **node chain-of-thought.js**
 3. To run a Few Shot Prompt example run => **node few_shot.js**
