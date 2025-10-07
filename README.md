@@ -8,9 +8,10 @@ This repository contains multiple Node.js applications demonstrating advanced pr
 
 - **Few-Shot Learning**: Example-based prompting for better task understanding
 - **Chain of Thought (CoT)**: Step-by-step reasoning prompts for complex problem solving
-- **LLM-as-Judge**: Automated evaluation system using AI models to judge responses. 
-  This code uses Iterative Refinement & Critique technique mentioned in the blog.
-  It shows a mixture of CoT prompt with LLM as Judge, where the judge evaluates the Thinking step of COT.
+- **LLM-as-Judge**: This implementation demonstrates an automated evaluation system where two AI models work in sequence:
+  Main Model (Reasoning): Generates an initial Chain-of-Thought (CoT) reasoning step.
+  Judge Model (Evaluation): Analyses the CoT reasoning step for logical consistency, accuracy, and completeness.
+  Iterative Refinement: The Main Model receives the Judge's feedback, revises its reasoning accordingly, and proceeds to the next step in the reasoning chain.
 - **Self-Consistent**: Implementation of self-consistent prompting for more reliable outputs
 - **Basic Prompt Templates**: Various prompt templates for different use cases
 
@@ -20,7 +21,7 @@ This repository contains multiple Node.js applications demonstrating advanced pr
 
 - **Node.js** (version 14 or higher)
 - **npm** (Node Package Manager)
-- **OpenAI API token** ( this is a paid token, you can use a free model in the code, to work with a free token )
+- **OpenAI API token** ( this is a paid token; you can use a free model in the code, to work with a free token )
 
 ### Steps
 
